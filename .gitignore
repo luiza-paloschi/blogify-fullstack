@@ -1,0 +1,13 @@
+**/node_modules/
+
+**/dist/
+
+**/coverage/
+
+# Ignore .env files in the front directory
+/blogify-front/*.env
+
+# Ignore .env files in the back directory
+/blogify-back/*.env
+/blogify-back/*.env.development
+/blogify-back/*.env.test
