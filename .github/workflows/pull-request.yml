@@ -14,6 +14,7 @@ jobs:
           envkey_POSTGRES_PASSWORD: "postgres"
           envkey_POSTGRES_DB: "blogify_test"
           envkey_DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/blogify_test"
+          envkey_JWT_SECRET: "top_secret"
           directory: blogify-back
           file_name: .env.test
       - name: Run tests
